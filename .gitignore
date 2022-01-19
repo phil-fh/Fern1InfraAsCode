@@ -1,3 +1,6 @@
 /.terraform/
 /.idea/
 /Fern1InfraAsCode.iml
+/.terraform.lock.hcl
+/terraform.tfstate
+/terraform.tfstate.backup
