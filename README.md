@@ -16,3 +16,11 @@ Notwendige Troubleshooting-Maßnahmen meinerseits führen zu erheblichen Punktea
 Deliverable
 
 Der Infrastructure-Code ist in einem GitHub Repository bereitzustellen (mein GitHub Username ist @thschue). Bitte gebt in diesen Zusammenhang auf die Trennung Code/Konfiguration sowie auf Secrets acht, im Klartext eingecheckte Secrets im führen ebenfalls zu Punkteabzug. 
+
+QuickSetup:
+git clone https://github.com/phil-fh/Fern1InfraAsCode
+Start aws Learner Lab and update ~/.aws/credentials
+cd ../Fern1InfraAsCode
+terraform init
+terraform plan
+terraform apply
